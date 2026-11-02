@@ -1,5 +1,5 @@
 extends Control
-
+#hi
 @onready var input_hex: LineEdit = $HEX2MACROS/Input
 @onready var output_result: TextEdit = $HEX2MACROS/Output
 
