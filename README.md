@@ -19,7 +19,7 @@ Note: When the disassembler is displayed the game pauses so you can resume it
 
 <img width="452" height="241" alt="image" src="https://github.com/user-attachments/assets/1a4110fe-44da-4c87-a70d-324e60a2069c" />
 
-To recreate the instrument you need to be at the part of the game where the song plays and somewhere where you won't die easily. You can use save states or passwords to help you. You need to select the channel where the instrument you’re going to recreate is located and write down the hexadecimal numbers that appear in the “Control” section. Using the “Step Frame” button you can advance frame by frame to get a better look to these numbers, I usually write them down in Notepad
+   To recreate the instrument you need to be at the part of the game where the song plays and somewhere where you won't die easily. You can use save states or passwords to help you. You need to select the channel where the instrument you’re going to recreate is located and write down the hexadecimal numbers that appear in the “Control” section. Using the “Step Frame” button you can advance frame by frame to get a better look to these numbers, I usually write them down in Notepad
 
 5. Once you've written down the numbers that make up the instrument you'll need to open the ```pce2macros``` tool, paste the numbers in the "Input" field and press Enter to translate it, Then you can copy the numbers
    
