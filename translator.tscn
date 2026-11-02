@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://5mwpj1vf7i1v"]
+
+[ext_resource type="Script" uid="uid://dnbikuj2kex5k" path="res://translator.gd" id="1_glxnh"]
+[ext_resource type="AudioStream" uid="uid://0d6dnrrcryo2" path="res://sounds/no_value.wav" id="2_r1p7g"]
+[ext_resource type="AudioStream" uid="uid://clooe81h0dtb8" path="res://sounds/translate.wav" id="3_gav82"]
+
+[node name="Translator" type="Control" unique_id=554330421]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_glxnh")
+
+[node name="HEX2MACROS" type="Control" parent="." unique_id=142880117]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="HEX2MACROS" unique_id=1531747465]
+layout_mode = 0
+offset_top = 104.0
+offset_right = 800.0
+offset_bottom = 127.0
+text = "HEX to Volume Macros"
+horizontal_alignment = 1
+
+[node name="Input" type="LineEdit" parent="HEX2MACROS" unique_id=1164453905]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 160.0
+offset_right = 640.0
+offset_bottom = 272.0
+alignment = 1
+
+[node name="Label2" type="Label" parent="HEX2MACROS" unique_id=1701074550]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 152.0
+offset_right = 350.0
+offset_bottom = 175.0
+text = "Input:"
+
+[node name="Label3" type="Label" parent="HEX2MACROS" unique_id=1956008248]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 288.0
+offset_right = 116.0
+offset_bottom = 311.0
+text = "Output:"
+
+[node name="Output" type="TextEdit" parent="HEX2MACROS" unique_id=92981835]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 296.0
+offset_right = 744.0
+offset_bottom = 328.0
+editable = false
+
+[node name="Sounds" type="Node" parent="." unique_id=1249161606]
+
+[node name="NoValue" type="AudioStreamPlayer" parent="Sounds" unique_id=1333795120]
+stream = ExtResource("2_r1p7g")
+bus = &"SFX"
+
+[node name="Translate" type="AudioStreamPlayer" parent="Sounds" unique_id=1367048653]
+stream = ExtResource("3_gav82")
+bus = &"SFX"
