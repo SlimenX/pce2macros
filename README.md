@@ -30,3 +30,6 @@ Note: When the disassembler is displayed the game pauses so you can resume it
 <img width="409" height="408" alt="image" src="https://github.com/user-attachments/assets/06ac42bb-e848-4e6c-b05d-cfe4c8709a7e" />
 
 And thats it! I hope this will be a great tool for people who want to create high-quality rips or for those who want to create content in the style of a specific game ^^
+
+## Future plans
+In the future a pitch-to-macro converter will be added. I was recently trying to create a table to identify each note by its hexadecimal number; this will be very useful for recreating drum kits
