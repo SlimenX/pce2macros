@@ -33,3 +33,6 @@ And thats it! I hope this will be a great tool for people who want to create hig
 
 ## Future plans
 In the future a pitch-to-macro converter will be added. I was recently trying to create a table to identify each note by its hexadecimal number; this will be very useful for recreating drum kits
+
+# Where i install it?
+You can install it [here](https://github.com/SlimenX/pce2macros/releases/tag/0.1)
