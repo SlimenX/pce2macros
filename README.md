@@ -1,4 +1,8 @@
 # What is “pce2macros”?
+
+<img width="119" height="109" alt="image" src="https://github.com/user-attachments/assets/6783a4d5-0998-4936-a835-82236872c6af" />
+
+
 It is a tool designed to convert hexadecimal numbers to decimal values for the volume section of the PC Engine, which can be used to recreate game instruments from this console. 
 It can be used with both Deflemask and Furnace Tracker
 ## How to Use
