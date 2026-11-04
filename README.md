@@ -27,7 +27,7 @@ Note: When the disassembler is displayed the game pauses so you can resume it
 
 5. Once you've written down the numbers that make up the instrument you'll need to open the ```pce2macros``` tool, paste the numbers in the "Input" field and press Enter to translate it, Then you can copy the numbers
    
-<img width="748" height="424" alt="image" src="https://github.com/user-attachments/assets/2bc0b5b6-96f3-45c7-af5b-6b19b415a7ea" />
+<img width="628" height="463" alt="image" src="https://github.com/user-attachments/assets/03447d1c-f210-4249-9f1e-9e067323666e" />
 
 6. That's when you go to the tracker you'll be using, in this case Furnace, create a new instrument and paste the numbers provided by the tool into the “Volume” field
 
