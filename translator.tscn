@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://5mwpj1vf7i1v"]
 
 [ext_resource type="Script" uid="uid://dnbikuj2kex5k" path="res://translator.gd" id="1_glxnh"]
+[ext_resource type="Texture2D" uid="uid://dgqxacrn8x6cr" path="res://images/bg/background.png" id="2_dd7vd"]
+[ext_resource type="FontFile" uid="uid://b1npy1awwmtww" path="res://images/font/font.png" id="2_gav82"]
 [ext_resource type="AudioStream" uid="uid://0d6dnrrcryo2" path="res://sounds/no_value.wav" id="2_r1p7g"]
 [ext_resource type="AudioStream" uid="uid://clooe81h0dtb8" path="res://sounds/translate.wav" id="3_gav82"]
 
@@ -13,6 +15,13 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_glxnh")
 
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1312642937]
+layout_mode = 0
+offset_right = 608.0
+offset_bottom = 416.0
+texture = ExtResource("2_dd7vd")
+stretch_mode = 1
+
 [node name="HEX2MACROS" type="Control" parent="." unique_id=142880117]
 layout_mode = 1
 anchors_preset = 15
@@ -23,42 +32,46 @@ grow_vertical = 2
 
 [node name="Label" type="Label" parent="HEX2MACROS" unique_id=1531747465]
 layout_mode = 0
-offset_top = 104.0
-offset_right = 800.0
-offset_bottom = 127.0
-text = "HEX to Volume Macros"
+offset_top = 40.0
+offset_right = 608.0
+offset_bottom = 63.0
+theme_override_fonts/font = ExtResource("2_gav82")
+text = "HEX to Volume Macro"
 horizontal_alignment = 1
 
 [node name="Input" type="LineEdit" parent="HEX2MACROS" unique_id=1164453905]
 layout_mode = 0
-offset_left = 224.0
-offset_top = 160.0
-offset_right = 640.0
-offset_bottom = 272.0
+offset_left = 128.0
+offset_top = 96.0
+offset_right = 576.0
+offset_bottom = 208.0
 alignment = 1
 
 [node name="Label2" type="Label" parent="HEX2MACROS" unique_id=1701074550]
 layout_mode = 0
-offset_left = 160.0
-offset_top = 152.0
-offset_right = 350.0
-offset_bottom = 175.0
-text = "Input:"
+offset_left = 32.0
+offset_top = 96.0
+offset_right = 222.0
+offset_bottom = 119.0
+theme_override_fonts/font = ExtResource("2_gav82")
+theme_override_font_sizes/font_size = 16
+text = "Input"
 
 [node name="Label3" type="Label" parent="HEX2MACROS" unique_id=1956008248]
 layout_mode = 0
-offset_left = 56.0
-offset_top = 288.0
-offset_right = 116.0
-offset_bottom = 311.0
-text = "Output:"
+offset_left = 16.0
+offset_top = 224.0
+offset_right = 112.0
+offset_bottom = 247.0
+theme_override_fonts/font = ExtResource("2_gav82")
+text = "Output"
 
 [node name="Output" type="TextEdit" parent="HEX2MACROS" unique_id=92981835]
 layout_mode = 0
-offset_left = 120.0
-offset_top = 296.0
-offset_right = 744.0
-offset_bottom = 328.0
+offset_left = 128.0
+offset_top = 224.0
+offset_right = 592.0
+offset_bottom = 256.0
 editable = false
 
 [node name="Sounds" type="Node" parent="." unique_id=1249161606]
